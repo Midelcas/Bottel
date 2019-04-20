@@ -1,0 +1,12 @@
+{
+  "disabled": false,
+  "bindings": [
+    {
+      "name": "myQueueItem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "bot-queue-g5-webbot",
+      "connection": "g5storage_STORAGE"
+    }
+  ]
+}
